@@ -6,6 +6,8 @@
 
 動作確認は Windows、Python 3.12、CPU です。PaddleOCR 3 系は Python 3.9〜3.13 を前提にしています。
 
+<img width="588" height="1695" alt="image" src="https://github.com/user-attachments/assets/52caaff0-480f-4658-9000-8fdc17f08998" />
+
 ```powershell
 py -3.12 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
@@ -20,6 +22,7 @@ py -3.12 -m venv .venv
 ```
 
 ブラウザで http://127.0.0.1:8765 を開いて、画像を選んで「読み取る」を押します。受け付ける形式は PNG、JPEG、WebP、BMP、TIFF で、サイズの上限は 8MB です。
+<img width="559" height="89" alt="image" src="https://github.com/user-attachments/assets/cd448a9f-82b2-4208-a8c6-91d631827feb" />
 
 ### コマンドから読む
 
