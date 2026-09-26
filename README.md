@@ -1,7 +1,8 @@
 # python-card-ocr
 
-名刺の画像を手元の PC で読み、氏名・会社・住所・電話・メールなどに分けて出します。文字起こしと項目の判断は別々で、項目分けに学習は使いません。画像も結果も外部へ送りません。
 <img width="588" height="1695" alt="image" src="https://github.com/user-attachments/assets/52caaff0-480f-4658-9000-8fdc17f08998" />
+
+名刺の画像を手元の PC で読み、氏名・会社・住所・電話・メールなどに分けて出します。文字起こしと項目の判断は別々で、項目分けに学習は使いません。画像も結果も外部へ送りません。
 
 ## 使い方・動作環境
 
@@ -14,16 +15,17 @@ py -3.12 -m venv .venv
 
 初回の読み取りで、文字認識モデルが `C:\Users\<ユーザー>\.paddlex\official_models` に保存されます。2 回目以降はそれを使います。
 
-### 画面から読む
+### 【使い方A】画面から読む
 
 ```powershell
 .\.venv\Scripts\python.exe web.py
 ```
 
 ブラウザで http://127.0.0.1:8765 を開いて、画像を選んで「読み取る」を押します。受け付ける形式は PNG、JPEG、WebP、BMP、TIFF で、サイズの上限は 8MB です。
+
 <img width="559" height="89" alt="image" src="https://github.com/user-attachments/assets/cd448a9f-82b2-4208-a8c6-91d631827feb" />
 
-### コマンドから読む
+### 【使い方B】コマンドから読む
 
 プロジェクトのフォルダで実行します。
 
