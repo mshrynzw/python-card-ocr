@@ -1,12 +1,11 @@
 # python-card-ocr
 
 名刺の画像を手元の PC で読み、氏名・会社・住所・電話・メールなどに分けて出します。文字起こしと項目の判断は別々で、項目分けに学習は使いません。画像も結果も外部へ送りません。
+<img width="588" height="1695" alt="image" src="https://github.com/user-attachments/assets/52caaff0-480f-4658-9000-8fdc17f08998" />
 
 ## 使い方・動作環境
 
 動作確認は Windows、Python 3.12、CPU です。PaddleOCR 3 系は Python 3.9〜3.13 を前提にしています。
-
-<img width="588" height="1695" alt="image" src="https://github.com/user-attachments/assets/52caaff0-480f-4658-9000-8fdc17f08998" />
 
 ```powershell
 py -3.12 -m venv .venv
